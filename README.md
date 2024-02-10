@@ -15,7 +15,7 @@ This project's goal was to create a simulated network environment with a custom 
 
 ### Topology
 
-![Final Network Topology](topology.png)
+![Final Network Topology](iptables/topology.png)
 
 The network topology consists of separate subnetworks for `client1`, `client2`, and `server` namespaces, as well as a `host-to-firewall` connection. These are orchestrated to ensure that controlled communication is maintained through the `firewall`, which facilitates both internal namespace communication and external internet access.
 
